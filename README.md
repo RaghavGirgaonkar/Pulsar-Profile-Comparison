@@ -18,6 +18,8 @@ The above command compares profiles 2 to 4 to profile 1 by taking profile 1 as t
 
 The code outputs "Difference" files for all of the profiles comapred. It outputs the chisquare value for each file along with the peak deviation value. 
 
+Along with this, a comparison plot with the two profiles overlaid and their differences is plotted for all pairs of files compared.
+
 # Note
 
 1. The Chi-square value is calculated using the off pulse region of the reference profile (i.e template), the code is still the same but your off pulse region may be different depending on which profile you use for profile1.txt. This will have to be manually changed in the get_chisqrs() function in the script if needed.
